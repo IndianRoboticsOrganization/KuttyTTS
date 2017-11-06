@@ -1,5 +1,5 @@
-KuttyTTS - Tamil Speech Synthesizer [Powered By IIT Madras - Donlab's Indic TTS Voices]
-=======================================================================================
+KuttyTTS - Tamil Speech Synthesizer 
+===================================
 
 HOW-TO Build from sourcecode
 ****************************
@@ -22,9 +22,9 @@ $ echo "வணக்கம்" | src/KuttyTTS.exe -m voices/naveen_tamil.htsvoic
 
 *****************************************************************************
 
-Tamil Text-To-Speech tool for windows (Command-Line | Console App).
+A Small Tamil Text-To-Speech tool for windows.
 
-This application is a windows port of linux command line text to speech tool called flite_hts_tamil.
+This application is a windows port of linux text to speech tool called flite_hts_tamil.
 
 where a linux version was created by [mentamizh] (https://github.com/mentamizh/flite_hts_tamil)
 which uses code from open source android app developed by [donlab](http://www.iitm.ac.in/donlab/tts/index.php)
@@ -48,6 +48,7 @@ Credits
 =======
 
 IIT Madras, Department Of Computer Science for [donlab] (Indic TTS)
+
 Mohan for [mentamizh] (flite_hts_tamil)
 
 Usage
@@ -80,7 +81,7 @@ You can now build your own Tamil Voice-Enabled Applications in .Net/Other for wi
 
 Example C# Code
 ================
-
+```CSharp
 void SpeakTamil(string msg){
 
 StreamWriter writetext = new StreamWriter("text.txt",false,Encoding.UTF-8)
@@ -96,17 +97,18 @@ SoundPlayer simpleSound = new SoundPlayer("output\output.wav");
 simpleSound.PlaySync();
 
 }
+```
 
 Future :
 ========
 
-* Graphincal User Interface Will Be Added
+* Graphical User Interface Will Be Added
 * A .Net (C#,VB,F#) Library Will Be Made Available for Wizards (Developers).
 
 Pros
 =====
 
-* Light Weight & Speed
+* Light Weight & High Speed
 * Easy To Install
 
 Cons

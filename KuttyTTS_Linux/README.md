@@ -1,5 +1,6 @@
-KuttyTTS - Tamil Speech Synthesizer [Powered By IIT Madras - Donlab's Indic TTS Voices]
-=======================================================================================
+KuttyTTS - Tamil Speech Synthesizer 
+===================================
+
 
 HOW-TO Build from sourcecode
 ****************************
@@ -20,9 +21,9 @@ $ echo "வணக்கம்" | src/KuttyTTS -m voices/naveen_tamil.htsvoice -o
 
 *****************************************************************************
 
-Tamil Text-To-Speech tool for linux (Command-Line | Console App).
+A Small Tamil Text-To-Speech tool for linux.
 
-This application is a clone of text to speech tool called flite_hts_tamil 
+This application is based on a text to speech tool called flite_hts_tamil 
 created by [mentamizh] (https://github.com/mentamizh/flite_hts_tamil)
 which uses code from open source android app developed by [donlab]
 (http://www.iitm.ac.in/donlab/tts/index.php)
@@ -33,6 +34,10 @@ Theres also a windows version of KuttyTTS available from indianrobotics.org!
 
 If you are a developer or wish to enhance this TTS,
 Then checkout https://github.com/mentamizh/flite_hts_tamil
+
+If you want a high quality, natural sounding tamil speech synthesizer, then you should definitely checkout **ArimaTTS**!
+
+Link : https://github.com/IndianRoboticsOrganization/ArimaTTS/
 
 
 Minimum System Requirements
@@ -46,6 +51,7 @@ Credits
 =======
 
 IIT Madras, Department Of Computer Science for [donlab] (Indic TTS)
+
 Mohan for [mentamizh] (flite_hts_tamil)
 
 Usage
@@ -55,7 +61,7 @@ First set execute permission to "Speak.sh"
 
 	$ chmod +x ./Speak.sh
 
-ON-THE-GO Mode
+**ON-THE-GO Mode**
 **************
 
 Open your terminal & run the script as follows.
@@ -64,7 +70,7 @@ Open your terminal & run the script as follows.
 
 You should hear the synthesized speech on the go!
 
-READFILE Mode
+**READFILE Mode**
 ************
 
 Open your terminal & run the script
@@ -89,7 +95,9 @@ Please, feel free to contact us on indianroboticsorganization@gmail.com
 
 If you like the application, Hit a like on our facebook page
 
-Like Us On : http://facebook.com/indianrobotics/
+Like Us On Facebook : http://facebook.com/indianrobotics/
+
+Follow Us On Twitter : https://twitter.com/indianrobotics_/
 
 Please post your feedbacks on facebook, it means so much to us.
 
@@ -100,7 +108,7 @@ You can now build your own Tamil Voice-Enabled Applications in C/C++/Python/Java
 
 Example Python Code (KuttyTTS.py)
 ===================
-
+```python
 import sys
 import os
 
@@ -112,18 +120,20 @@ os.system("aplay output/speech.wav")
 return
 
 speak("வணக்கம்")
+```
 
 Future :
 ========
 
-* Graphincal User Interface Will Be Added
+* Graphical User Interface Will Be Added
 * A C Shared-library will be created
 * Python & Java API through wrappers
+* A .Net library will be made available for Mono Developers
 
 Pros
 =====
 
-* Light Weight & Speed
+* Light Weight & High Speed
 * Easy To Install
 
 Cons

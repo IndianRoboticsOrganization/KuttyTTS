@@ -1,6 +1,7 @@
-KuttyTTS - Tamil Speech Synthesizer ===================================
+KuttyTTS - Tamil Speech Synthesizer
+===================================
 
-A smal text to speech synthesizer for linux & Windows.
+A smal tamil text to speech synthesizer for linux & Windows.
 
 This application is a clone of text to speech tool called flite_hts_tamil 
 created by [mentamizh] (https://github.com/mentamizh/flite_hts_tamil)
@@ -14,6 +15,12 @@ There are both windows & linux version of KuttyTTS available from indianrobotics
 If you are a developer or wish to enhance this TTS,
 Then checkout https://github.com/mentamizh/flite_hts_tamil
 
+If you want a high quality natural sounding speech synthesizer for tamil,
+then checkout ArimaTTS!
+
+**ArimaTTS - Tamil Text To Speech Synthesizer**
+
+Link : https://github.com/IndianRoboticsOrganization/ArimaTTS/
 
 Minimum System Requirements
 ===========================
@@ -26,6 +33,7 @@ Credits
 =======
 
 IIT Madras, Department Of Computer Science for [donlab] (Indic TTS)
+
 Mohan for [mentamizh] (flite_hts_tamil)
 
 **************************************************************
